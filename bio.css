@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+  }
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: "Satisy", cursive;
+    background-color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 5%;
+}
+.header {
+    background-color:cornsilk;
+}
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+table {
+    background-color: white;
+    width: 100%;
+    border-left: solid 5px ghostwhite;
+    border-right: solid 5px ghostwhite;
+    border-bottom: solid 5px ghostwhite;
+}
+tr {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  }
+  
+  td {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border: 5px solid ghostwhite;
+  }
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+table, td {
+    border-collapse: collapse;
+}
+body {
+    background-image: url("gradient_mixed_background.jpg");
+    background-size: cover;
+}
+.summary title {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-size: 4em;
+    font-weight: normal;
+}
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+  }
+ 
+  
+  .item1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .image {
+    width: 25%;
+    height: 21%;
+    float: left;
+    margin-right: 3%;
+    border-radius: 50%;
+  }
+  p {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 0%;
+    font-family: "Courgette", cursive;
+  }
+  h3 {
+    text-align: center;
+    font-size: 3em;
+  }
+  footer {
+    background-color:ghostwhite;
+  }
+  .icon {
+    margin-left: 42%;
+    margin-right: 42%;
+  }
+  .courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @media screen and (max-width: 528px){
+    h1 {
+      font-size: 3.5em;
+    }
+    h2 {
+      font-size: 3em;
+    }
+    .image {
+      width: 100%;
+      margin: auto;
+    }
+    
+    h3 {
+      font-size: 2.5em;
+    }
+    .icon {
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+  }
+
+  
